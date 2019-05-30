@@ -21,7 +21,7 @@ Inputs of the Algorithm:
 
 6. varImp:	Variable Importance is used specifically in the second phase. It must be given as a vector having importance value for each cause variable with the same order as they are given in the causes data frame. The minimum value must be set as 1 and the others must be specified relative to that variable. In the default setting, all the variables take the varImp value as 1.
 
-7.limits:	Limits show the range of cause variables where the variables significantly affect Y variable. If a variable always has a significant impact on the Y variable, the limit can be set as the limits of the observed data of that variable. However, the varImp must be chosen relative to the limits.
+7. limits:	Limits show the range of cause variables where the variables significantly affect Y variable. If a variable always has a significant impact on the Y variable, the limit can be set as the limits of the observed data of that variable. However, the varImp must be chosen relative to the limits.
 
 
 
